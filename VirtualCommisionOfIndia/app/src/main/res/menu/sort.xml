@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/name"
+        android:title="Name"/>
+
+    <item
+        android:id="@+id/symbol"
+        android:title="Symbol"/>
+
+    <item
+        android:id="@+id/currency"
+        android:title="Currency"/>
+
+    <item
+        android:id="@+id/last_price"
+        android:title="Last Price"/>
+
+    <item
+        android:id="@+id/pricing_date"
+        android:title="Pricing Date"/>
+
+    <item
+        android:id="@+id/high_price"
+        android:title="High Price"/>
+    <item
+        android:id="@+id/low_price"
+        android:title="Low Price"/>
+
+
+
+
+</menu>

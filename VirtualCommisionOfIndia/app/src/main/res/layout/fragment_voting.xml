@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/White"
+    android:padding="@dimen/dp_15">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:src="@drawable/bsp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/drawer_bg" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/download" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/drawer_bg" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:src="@drawable/aitc" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/drawer_bg" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:src="@drawable/ncp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/drawer_bg" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:src="@drawable/inc" />
+
+
+</LinearLayout>
